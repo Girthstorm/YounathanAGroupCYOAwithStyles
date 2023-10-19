@@ -128,7 +128,7 @@ button:hover{
  }
 
 .pg2img {
-  width: 40%;
+  width: 35%;
 }
 
 .pg3img {
@@ -136,7 +136,7 @@ button:hover{
 }
 
 .pg4img {
-  width: 40%;
+  width: 30%;
 }
 
 .pg5img {
@@ -149,6 +149,10 @@ button:hover{
 
 .pg7img {
   width: 50%;
+}
+
+.pg8img {
+  width: 40%;
 }
 
 .pg9img {
