@@ -4,7 +4,7 @@
 }
 body {
 width: 99%;
-height: 98.2vh;
+height: 99vh;
 background : linear-gradient(
   to bottom right,
   rgb(126, 48, 61) 0%,
@@ -40,23 +40,25 @@ background : linear-gradient(
     margin-right: auto;
     width: 700px;
     background-color: rgba(0, 0, 0, 0.503);
-    border: 3px rgb(177, 104, 162);
-    border-style: inset;
-    border-radius: 15px;
+    border: none;
+    border-radius: 12px;
   }
   
   .btnspg2{
     display: flex;
     justify-content: center;
     margin-top: 20px;
-     
+    
   }
 
   .btn2 {
     margin-left: 100px;
   }
 
-  
+  button {
+    table-layout: fixed;
+    width: 300px ;
+  }
 
 .title {
     text-align: center;
@@ -128,11 +130,11 @@ button:hover{
  }
 
 .pg2img {
-  width: 35%;
+  width: 30%;
 }
 
 .pg3img {
-  width: 60%;
+  width: 50%;
 }
 
 .pg4img {
@@ -144,7 +146,7 @@ button:hover{
 }
 
 .pg6img {
-  width: 25%;
+  width: 20%;
 }
 
 .pg7img {
@@ -152,9 +154,41 @@ button:hover{
 }
 
 .pg8img {
-  width: 40%;
+  width: 30%;
 }
 
 .pg9img {
-  width: 60%;
+  width: 50%;
+}
+
+.pg10img {
+    width: 40%;
+}
+
+.mainmenubtn {
+  table-layout: fixed;
+  width: 150px ;
+  align-items: flex-end;
+}
+
+.menubtn {
+  display: flex;
+  justify-content: end;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.btn-wrapper canvas {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
 }
