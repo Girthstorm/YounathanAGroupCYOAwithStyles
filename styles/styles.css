@@ -12,6 +12,7 @@ background : linear-gradient(
   paleturquoise 50%,
   rgb(13, 59, 59) 100%);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image {
